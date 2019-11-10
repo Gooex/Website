@@ -1,0 +1,127 @@
+/*Cronometro*/
+
+    #contenedor{
+    margin: 10px auto;
+    width: 540px;
+    height: 115px;
+}
+
+.reloj{
+    float: left;
+    font-size: 80px;
+    font-family: Courier,sans-serif;
+    color: #363431;
+}
+
+
+/*Iconos*/
+
+.icons {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.icons-help:hover{
+     cursor: pointer;
+}
+
+.icons-help{
+    
+    color: #ac0f0f;
+    font-weight: bolder;
+}
+
+form .icon-search {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    font-size: 4em;
+}
+
+table .icon-search {
+     font-size: 3em;
+    color: #6E6D6C;
+    margin-left: 25%;
+  
+}
+
+table .icon-search:hover {
+    color: #6c1a1a;
+    cursor: pointer;
+   
+}
+
+table .icon-delete {
+     font-size: 3em;
+    color: #6E6D6C;
+    margin-left: 25%;
+  
+}
+
+table .icon-delete:hover {
+    color: #6c1a1a;
+    cursor: pointer;
+   
+}
+
+table .icon-edit {
+    font-size: 3em;
+    color: #6E6D6C;
+    margin-left: 34%;
+}
+
+table .icon-edit:hover {
+   color: #6c1a1a;
+   cursor: pointer;
+}
+
+table .icon-pass{
+     font-size: 3em;
+    color: #6E6D6C;
+    margin-left: 39%;
+    
+}
+
+table .icon-pass:hover {
+    color: #6c1a1a;
+    cursor: pointer;
+   
+}
+table .tam-btn{
+    
+    padding-right: 0px;
+}
+
+#tabla{
+    
+    margin-top: 30px;
+}
+
+
+.margen{
+    margin-top: 50px;
+}
+
+.alert {
+    font-weight: bolder;
+    font-size: 1.3em;
+    position: fixed;
+    top: 45%;
+    left: 35%;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    z-index: 10000;
+}
+
+.centro{
+    
+    text-align: center;;
+    left: 10%;
+    right: 20%;
+}
+
